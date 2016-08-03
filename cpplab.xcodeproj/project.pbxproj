@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C871A6181D5174C9001EC0FA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C871A6171D5174C9001EC0FA /* main.cpp */; };
+		C871A6201D517512001EC0FA /* mergesortedarrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C871A61E1D517512001EC0FA /* mergesortedarrays.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		C871A6141D5174C9001EC0FA /* cpplab */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cpplab; sourceTree = BUILT_PRODUCTS_DIR; };
 		C871A6171D5174C9001EC0FA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C871A61E1D517512001EC0FA /* mergesortedarrays.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mergesortedarrays.cpp; sourceTree = "<group>"; };
+		C871A61F1D517512001EC0FA /* mergesortedarrays.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mergesortedarrays.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				C871A6171D5174C9001EC0FA /* main.cpp */,
+				C871A61E1D517512001EC0FA /* mergesortedarrays.cpp */,
+				C871A61F1D517512001EC0FA /* mergesortedarrays.hpp */,
 			);
 			path = cpplab;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C871A6181D5174C9001EC0FA /* main.cpp in Sources */,
+				C871A6201D517512001EC0FA /* mergesortedarrays.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
