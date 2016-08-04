@@ -10,6 +10,7 @@
 #include <iostream>
 #include "BST.hpp"
 #include "mergesortedarrays.hpp"
+#include "q1_1.hpp"
 
 
 void testBST(){
@@ -51,6 +52,10 @@ void testMergeSortedArray(){
     }
 }
 
+void test1_1(){
+    testQ1_1();
+}
+
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
@@ -59,6 +64,7 @@ int main(int argc, const char * argv[]) {
     
     testBST();
     
+    test1_1();
  
         
     return 0;
