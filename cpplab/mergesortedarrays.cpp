@@ -40,9 +40,9 @@ vector<int>& mergesortedarray::doTheStuff(vector<int> &v1, vector<int> &v2){
         v1.insert(v1.end(), iv2, v2.end());
     }
     
-    if (iv2 == v2.end()){
-        throw MergeException("error");
-    }
+//    if (iv2 == v2.end()){
+//        throw MergeException("error");
+//    }
     
     return v1;
     
