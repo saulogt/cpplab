@@ -11,15 +11,15 @@
 #include "BST.hpp"
 #include "mergesortedarrays.hpp"
 #include "q1_1.hpp"
-
+#include "MyHeapSort.hpp"
 
 void testBST(){
     vector<int> v = {3,4200,5,6,400,3,5,54,7,3,8,4,10,60,3,99,123};
-    BST<int> bst;
+    BST<int> bst(v.begin(), v.end());
     
-    for (auto val: v) {
-        bst.add(val);
-    }
+//    for (auto val: v) {
+//        bst.add(val);
+//    }
     
     assert(*bst.find(5) == 5 );
     assert(*bst.find(6) == 6 );
@@ -52,6 +52,19 @@ void testMergeSortedArray(){
     }
 }
 
+void testMyHeapSort(){
+
+    vector<int> v = {2,1,3,9,6,5,7,4};
+    MyHeapSort(v);
+    
+   
+    
+    
+    cout << &v;
+    
+     assert(is_sorted(v.begin(), v.end()));
+}
+
 void test1_1(){
     testQ1_1();
 }
@@ -65,6 +78,8 @@ int main(int argc, const char * argv[]) {
     testBST();
     
     test1_1();
+    
+    testMyHeapSort();
  
         
     return 0;

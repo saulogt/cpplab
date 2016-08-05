@@ -70,7 +70,8 @@ public:
         
     }
     
-    BST(std::iterator<std::forward_iterator_tag, T> start, std::iterator<std::forward_iterator_tag, T> end) : root(nullptr){
+    template <typename _Iterator>
+    BST(_Iterator start, _Iterator end) : root(nullptr){
         
         for (auto s = start; s != end; ++s){
             add(*s);
