@@ -12,6 +12,8 @@
 		C8E548491D53F00F00008BA0 /* BST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8E548471D53F00F00008BA0 /* BST.cpp */; };
 		C8E5484D1D540A3200008BA0 /* q1_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8E5484B1D540A3200008BA0 /* q1_1.cpp */; };
 		C8E548501D55226B00008BA0 /* MyHeapSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8E5484E1D55226B00008BA0 /* MyHeapSort.cpp */; };
+		C8E548531D553E4300008BA0 /* q1_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8E548511D553E4300008BA0 /* q1_2.cpp */; };
+		C8E548561D554C2800008BA0 /* q1_3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8E548541D554C2800008BA0 /* q1_3.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +39,10 @@
 		C8E5484C1D540A3200008BA0 /* q1_1.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = q1_1.hpp; sourceTree = "<group>"; };
 		C8E5484E1D55226B00008BA0 /* MyHeapSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MyHeapSort.cpp; sourceTree = "<group>"; };
 		C8E5484F1D55226B00008BA0 /* MyHeapSort.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MyHeapSort.hpp; sourceTree = "<group>"; };
+		C8E548511D553E4300008BA0 /* q1_2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = q1_2.cpp; sourceTree = "<group>"; };
+		C8E548521D553E4300008BA0 /* q1_2.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = q1_2.hpp; sourceTree = "<group>"; };
+		C8E548541D554C2800008BA0 /* q1_3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = q1_3.cpp; sourceTree = "<group>"; };
+		C8E548551D554C2800008BA0 /* q1_3.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = q1_3.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,10 @@
 			children = (
 				C8E5484B1D540A3200008BA0 /* q1_1.cpp */,
 				C8E5484C1D540A3200008BA0 /* q1_1.hpp */,
+				C8E548511D553E4300008BA0 /* q1_2.cpp */,
+				C8E548521D553E4300008BA0 /* q1_2.hpp */,
+				C8E548541D554C2800008BA0 /* q1_3.cpp */,
+				C8E548551D554C2800008BA0 /* q1_3.hpp */,
 			);
 			name = CCI;
 			sourceTree = "<group>";
@@ -148,6 +158,8 @@
 			files = (
 				C8E548491D53F00F00008BA0 /* BST.cpp in Sources */,
 				C871A6181D5174C9001EC0FA /* main.cpp in Sources */,
+				C8E548561D554C2800008BA0 /* q1_3.cpp in Sources */,
+				C8E548531D553E4300008BA0 /* q1_2.cpp in Sources */,
 				C871A6201D517512001EC0FA /* mergesortedarrays.cpp in Sources */,
 				C8E548501D55226B00008BA0 /* MyHeapSort.cpp in Sources */,
 				C8E5484D1D540A3200008BA0 /* q1_1.cpp in Sources */,
