@@ -13,6 +13,7 @@
 #include "q1_1.hpp"
 #include "q1_2.hpp"
 #include "q1_3.hpp"
+#include "q1_5.hpp"
 
 #include "MyHeapSort.hpp"
 
@@ -83,6 +84,7 @@ int main(int argc, const char * argv[]) {
     test1_1();
     testQ1_2();
     testq1_3();
+    testq1_5();
     
     testMyHeapSort();
  

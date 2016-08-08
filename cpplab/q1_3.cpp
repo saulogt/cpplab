@@ -28,6 +28,8 @@ void usePercent20(string& s, int sz){
         }
     }
     
+
+    
     int finalsize = sz + (nspaces * 3);
     assert(s.size() >= finalsize);
     
