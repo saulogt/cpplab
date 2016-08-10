@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C80E1A0F1D5B04C30099ADD9 /* movesemantics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C80E1A0D1D5B04C30099ADD9 /* movesemantics.cpp */; };
+		C80E1A121D5B04D40099ADD9 /* smartpointers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C80E1A101D5B04D40099ADD9 /* smartpointers.cpp */; };
 		C871A6181D5174C9001EC0FA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C871A6171D5174C9001EC0FA /* main.cpp */; };
 		C871A6201D517512001EC0FA /* mergesortedarrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C871A61E1D517512001EC0FA /* mergesortedarrays.cpp */; };
 		C8E548491D53F00F00008BA0 /* BST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8E548471D53F00F00008BA0 /* BST.cpp */; };
@@ -31,6 +33,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C80E1A0D1D5B04C30099ADD9 /* movesemantics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = movesemantics.cpp; sourceTree = "<group>"; };
+		C80E1A0E1D5B04C30099ADD9 /* movesemantics.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = movesemantics.hpp; sourceTree = "<group>"; };
+		C80E1A101D5B04D40099ADD9 /* smartpointers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = smartpointers.cpp; sourceTree = "<group>"; };
+		C80E1A111D5B04D40099ADD9 /* smartpointers.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = smartpointers.hpp; sourceTree = "<group>"; };
 		C871A6141D5174C9001EC0FA /* cpplab */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cpplab; sourceTree = BUILT_PRODUCTS_DIR; };
 		C871A6171D5174C9001EC0FA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C871A61E1D517512001EC0FA /* mergesortedarrays.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mergesortedarrays.cpp; sourceTree = "<group>"; };
@@ -62,6 +68,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C80E1A0C1D5B04A10099ADD9 /* concepts */ = {
+			isa = PBXGroup;
+			children = (
+				C80E1A0D1D5B04C30099ADD9 /* movesemantics.cpp */,
+				C80E1A0E1D5B04C30099ADD9 /* movesemantics.hpp */,
+				C80E1A101D5B04D40099ADD9 /* smartpointers.cpp */,
+				C80E1A111D5B04D40099ADD9 /* smartpointers.hpp */,
+			);
+			name = concepts;
+			sourceTree = "<group>";
+		};
 		C871A60B1D5174C9001EC0FA = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +98,7 @@
 		C871A6161D5174C9001EC0FA /* cpplab */ = {
 			isa = PBXGroup;
 			children = (
+				C80E1A0C1D5B04A10099ADD9 /* concepts */,
 				C8E5484A1D540A1000008BA0 /* CCI */,
 				C871A6171D5174C9001EC0FA /* main.cpp */,
 				C871A61E1D517512001EC0FA /* mergesortedarrays.cpp */,
@@ -166,8 +184,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C80E1A0F1D5B04C30099ADD9 /* movesemantics.cpp in Sources */,
 				C8E5485C1D5AB20600008BA0 /* linkedlist.cpp in Sources */,
 				C8E548491D53F00F00008BA0 /* BST.cpp in Sources */,
+				C80E1A121D5B04D40099ADD9 /* smartpointers.cpp in Sources */,
 				C871A6181D5174C9001EC0FA /* main.cpp in Sources */,
 				C8E548561D554C2800008BA0 /* q1_3.cpp in Sources */,
 				C8E548531D553E4300008BA0 /* q1_2.cpp in Sources */,
