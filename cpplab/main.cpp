@@ -16,6 +16,7 @@
 #include "q1_5.hpp"
 
 #include "MyHeapSort.hpp"
+#include "linkedlist.hpp"
 
 void testBST(){
     vector<int> v = {3,4200,5,6,400,3,5,54,7,3,8,4,10,60,3,99,123};
@@ -33,6 +34,16 @@ void testBST(){
     
     
 
+}
+
+void testLinkedList(){
+    linkedlist<int> mylist;
+    
+    mylist.add(1);
+    mylist.add(3);
+    mylist.add(2038977);
+    
+    
 }
 
 void testMergeSortedArray(){
@@ -88,6 +99,8 @@ int main(int argc, const char * argv[]) {
     
     testMyHeapSort();
  
-        
+    testLinkedList();
+    
+    
     return 0;
 }

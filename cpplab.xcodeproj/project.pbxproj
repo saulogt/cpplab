@@ -15,6 +15,7 @@
 		C8E548531D553E4300008BA0 /* q1_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8E548511D553E4300008BA0 /* q1_2.cpp */; };
 		C8E548561D554C2800008BA0 /* q1_3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8E548541D554C2800008BA0 /* q1_3.cpp */; };
 		C8E548591D58FEB000008BA0 /* q1_5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8E548571D58FEAF00008BA0 /* q1_5.cpp */; };
+		C8E5485C1D5AB20600008BA0 /* linkedlist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8E5485A1D5AB20600008BA0 /* linkedlist.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +47,8 @@
 		C8E548551D554C2800008BA0 /* q1_3.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = q1_3.hpp; sourceTree = "<group>"; };
 		C8E548571D58FEAF00008BA0 /* q1_5.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = q1_5.cpp; sourceTree = "<group>"; };
 		C8E548581D58FEB000008BA0 /* q1_5.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = q1_5.hpp; sourceTree = "<group>"; };
+		C8E5485A1D5AB20600008BA0 /* linkedlist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = linkedlist.cpp; sourceTree = "<group>"; };
+		C8E5485B1D5AB20600008BA0 /* linkedlist.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = linkedlist.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				C8E548481D53F00F00008BA0 /* BST.hpp */,
 				C8E5484E1D55226B00008BA0 /* MyHeapSort.cpp */,
 				C8E5484F1D55226B00008BA0 /* MyHeapSort.hpp */,
+				C8E5485A1D5AB20600008BA0 /* linkedlist.cpp */,
+				C8E5485B1D5AB20600008BA0 /* linkedlist.hpp */,
 			);
 			path = cpplab;
 			sourceTree = "<group>";
@@ -161,6 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8E5485C1D5AB20600008BA0 /* linkedlist.cpp in Sources */,
 				C8E548491D53F00F00008BA0 /* BST.cpp in Sources */,
 				C871A6181D5174C9001EC0FA /* main.cpp in Sources */,
 				C8E548561D554C2800008BA0 /* q1_3.cpp in Sources */,
