@@ -17,7 +17,7 @@ using namespace std;
 
 void testMove(){
     
-    vector<string> ss1;
+    vector<string> ss1 = {"aaa", "sssddd"};
     ss1.push_back("abc");
     ss1.emplace_back("sssss");
     ss1.push_back("iii");

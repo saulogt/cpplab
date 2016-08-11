@@ -19,6 +19,7 @@
 #include "linkedlist.hpp"
 #include "smartpointers.hpp"
 #include "movesemantics.hpp"
+#include "async_stuff.hpp"
 
 void testBST(){
     vector<int> v = {3,4200,5,6,400,3,5,54,7,3,8,4,10,60,3,99,123};
@@ -108,6 +109,7 @@ int main(int argc, const char * argv[]) {
 
     testMove();
 
+    test_async_stuff();
     
     return 0;
 }
