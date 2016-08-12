@@ -25,6 +25,7 @@ public:
     
     MovableObject(const string& s): data(s){
         
+        printf("constructor\n");
     }
     
     MovableObject(const MovableObject& other)
