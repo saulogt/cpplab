@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C80E1A0F1D5B04C30099ADD9 /* movesemantics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C80E1A0D1D5B04C30099ADD9 /* movesemantics.cpp */; };
 		C80E1A121D5B04D40099ADD9 /* smartpointers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C80E1A101D5B04D40099ADD9 /* smartpointers.cpp */; };
+		C84A96861D6036BD00D3F924 /* MyGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C84A96841D6036BD00D3F924 /* MyGraph.cpp */; };
 		C864C7041D5D1E4A00328368 /* async_stuff.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C864C7021D5D1E4A00328368 /* async_stuff.cpp */; };
 		C871A6181D5174C9001EC0FA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C871A6171D5174C9001EC0FA /* main.cpp */; };
 		C871A6201D517512001EC0FA /* mergesortedarrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C871A61E1D517512001EC0FA /* mergesortedarrays.cpp */; };
@@ -38,6 +39,8 @@
 		C80E1A0E1D5B04C30099ADD9 /* movesemantics.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = movesemantics.hpp; sourceTree = "<group>"; };
 		C80E1A101D5B04D40099ADD9 /* smartpointers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = smartpointers.cpp; sourceTree = "<group>"; };
 		C80E1A111D5B04D40099ADD9 /* smartpointers.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = smartpointers.hpp; sourceTree = "<group>"; };
+		C84A96841D6036BD00D3F924 /* MyGraph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MyGraph.cpp; sourceTree = "<group>"; };
+		C84A96851D6036BD00D3F924 /* MyGraph.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MyGraph.hpp; sourceTree = "<group>"; };
 		C864C7021D5D1E4A00328368 /* async_stuff.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = async_stuff.cpp; sourceTree = "<group>"; };
 		C864C7031D5D1E4A00328368 /* async_stuff.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = async_stuff.hpp; sourceTree = "<group>"; };
 		C871A6141D5174C9001EC0FA /* cpplab */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cpplab; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,6 +117,8 @@
 				C8E5484F1D55226B00008BA0 /* MyHeapSort.hpp */,
 				C8E5485A1D5AB20600008BA0 /* linkedlist.cpp */,
 				C8E5485B1D5AB20600008BA0 /* linkedlist.hpp */,
+				C84A96841D6036BD00D3F924 /* MyGraph.cpp */,
+				C84A96851D6036BD00D3F924 /* MyGraph.hpp */,
 			);
 			path = cpplab;
 			sourceTree = "<group>";
@@ -193,6 +198,7 @@
 				C8E5485C1D5AB20600008BA0 /* linkedlist.cpp in Sources */,
 				C8E548491D53F00F00008BA0 /* BST.cpp in Sources */,
 				C80E1A121D5B04D40099ADD9 /* smartpointers.cpp in Sources */,
+				C84A96861D6036BD00D3F924 /* MyGraph.cpp in Sources */,
 				C871A6181D5174C9001EC0FA /* main.cpp in Sources */,
 				C8E548561D554C2800008BA0 /* q1_3.cpp in Sources */,
 				C8E548531D553E4300008BA0 /* q1_2.cpp in Sources */,

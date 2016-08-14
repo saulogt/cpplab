@@ -15,6 +15,9 @@
 #include "q1_3.hpp"
 #include "q1_5.hpp"
 
+
+#include "MyGraph.hpp"
+
 #include "MyHeapSort.hpp"
 #include "linkedlist.hpp"
 #include "smartpointers.hpp"
@@ -103,6 +106,8 @@ int main(int argc, const char * argv[]) {
     testMyHeapSort();
  
     testLinkedList();
+    
+    testGraph();
     
     
     testeSmartpointers();

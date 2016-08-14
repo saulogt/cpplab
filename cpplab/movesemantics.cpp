@@ -49,10 +49,16 @@ public:
         return *this;
     }
     
+    friend void swap(MovableObject& lhs, MovableObject& rhs) throw() {
+        MovableObject temp(move(lhs));
+        lhs = move(rhs);
+        rhs = move(temp);
+    }
+    
 };
 
-MovableObject getMovable(){
-    MovableObject m("obaaaaa");
+MovableObject getMovable(const string& s){
+    MovableObject m(s);
     
     printf("m = %p\n", &m);
     
@@ -76,12 +82,16 @@ void testMove(){
     
     string s("Ssssssssssss");
     
-    MovableObject m1(getMovable());
+    MovableObject m1(move(getMovable("First call")));
         printf("m1 = %p\n", &m1);
     
+    MovableObject m1_5;
+    swap(m1_5, m1);
     
-    m1 = getMovable();
+    m1 = getMovable("Second call");
         printf("new m1 = %p\n", &m1);
+    
+    
     
     
     
