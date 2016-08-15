@@ -26,13 +26,17 @@ public:
     }
     
     MyGraphNode<T>(const T& value)
-    :obj(value)
+    :obj(value), Marked(false)
     {
         
     }
     
     void addLink(MyGraphNode<T>* n){
         links.push_back(n);
+    }
+    
+    list<MyGraphNode<T>*>& getLinks(){
+        return links;
     }
     
     bool Marked = false;
@@ -58,6 +62,9 @@ class MyGraph{
     }
     
 public:
+    
+    
+    
     void addNode(const T& value, const list<T>& links){
         auto newNode = getOrAddNode(value);
         if (root == nullptr){
@@ -78,6 +85,12 @@ public:
     MyGraphNode<T>* getRoot() {
         return root;
     }
+    
+    MyGraph<T>()
+    :root(nullptr){
+        
+    }
+
 };
 
 
