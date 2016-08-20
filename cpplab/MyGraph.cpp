@@ -10,25 +10,59 @@
 #include <queue>
 #include <iostream>
 
-void visit(MyGraphNode<string>* g){
+bool visit(MyGraphNode<string>* g, const string& target){
     g->Marked = true;
     cout << g->getObj() << endl;
+    return (g->getObj() == target);
 }
+
+class PathNode{
+    MyGraphNode<string>* node;
+    shared_ptr<PathNode> parent;
+public:
+    PathNode() = delete;
+    
+    PathNode(shared_ptr<PathNode> parent, MyGraphNode<string>* node)
+    : parent(parent), node(node){
+        
+    }
+    
+    MyGraphNode<string>* getNode(){
+        return node;
+    }
+    shared_ptr<PathNode> getParent(){
+        return parent;
+    }
+    
+    ~PathNode(){
+        //cout << "destroy path node" << endl;
+    }
+    
+};
 
 int BFS(MyGraphNode<string>* g){
     
-    queue<MyGraphNode<string>*> q;
-    q.push(g);
+    queue<shared_ptr<PathNode> > q;
+    q.push(make_shared<PathNode>(nullptr, g));
     
     while (!q.empty()) {
         auto curr = q.front(); q.pop();
         
-        visit(curr);
+        if (visit(curr->getNode(), "i")){
+            auto temp = curr;
+            while (temp != nullptr) {
+                cout << temp->getNode()->getObj() << " <- ";
+                temp = temp->getParent();
+            }
+            cout << endl;
+            //break;
+        }
         
-        auto links = curr->getLinks();
+        auto links = curr->getNode()->getLinks();
         for (auto l: links){
             if (!l->Marked){
-                q.push(l);
+                q.push(make_shared<PathNode>(curr, l));
+                
             }
         }
         
@@ -40,8 +74,12 @@ void testGraph(){
     MyGraph<string> g;
     
     g.addNode("a", {"b", "c"});
-    g.addNode("c", {"a"});
+    g.addNode("c", {"a", "f"});
     g.addNode("b", {});
+    g.addNode("e", {"g", "h"});
+    g.addNode("f", {"e"});
+    g.addNode("g", {"h", "i", "j"});
+    
     
     auto r = g.getRoot();
     
